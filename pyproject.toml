@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "alma"
+version = "0.1.0"
+description = "Simple GUI inference for ALMA translator"
+authors = ["Kamil Solski <kamil.solski@onet.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "==3.11.*"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+torchaudio = "^2.6.0"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+transformers = "^4.48.2"
+peft = "^0.14.0"
+accelerate = "^1.3.0"
+protobuf = "^5.29.3"
+sentencepiece = "^0.2.0"
+bitsandbytes = "^0.45.2"
+xformers = "^0.0.29.post2"
+optimum = "^1.24.0"
+ctransformers = {extras = ["cuda"], version = "^0.2.27"}
+llama-cpp-python = "^0.3.7"
+textract = "^1.6.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
