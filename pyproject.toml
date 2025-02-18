@@ -22,7 +22,9 @@ xformers = "^0.0.29.post2"
 optimum = "^1.24.0"
 ctransformers = {extras = ["cuda"], version = "^0.2.27"}
 llama-cpp-python = "^0.3.7"
-textract = "^1.6.5"
+docx2python = "^3.5.0"
+pdfplumber = "^0.11.5"
+gradio = "^5.16.1"
 
 
 [build-system]
