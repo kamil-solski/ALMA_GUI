@@ -9,7 +9,7 @@ https://arxiv.org/html/2501.16273v1
 
 In my project Model directory uses soft link. Downlaoded models are stored on a external drive.
 
-#  CHANGES v1.0.0:
+# CHANGES v1.0.0:
 * initial quantization that allow for inference of the X-ALMA model on the RTX3090 (with 6GB of spare memory space)
 * basic inference of provided text, docx or pdf files.
 
@@ -17,3 +17,7 @@ In my project Model directory uses soft link. Downlaoded models are stored on a 
 * fixed how data is loaded to model (longer documents - no truncation).
 * added function to check distribution of number of tokens per sentence.
 
+# CHANGES v1.1.0:
+* added GUI using gradio
+* rebuilded scripts to working program py
+* removed support for docx
